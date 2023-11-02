@@ -1,0 +1,121 @@
+body {
+  text-align: center;
+  background-image: url(./images/blurred-bg.jpg);
+  background-size: cover; background-position: center;
+  
+}
+
+h1 {
+  font-size: 5rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+
+}
+.instructions{
+  font-family: "Arvo";
+  color: #DBEDF3;
+}
+.instructions button{
+  height: 40px; width: 140px;
+  font-size: 15px;
+  color: #DBEDF3;
+  background-color: #DA0463;
+  border-radius: 5%;
+  border: none;
+}
+.instructions .how{
+  width: 60%;
+  margin: 10% auto;
+  margin-top: 5%;
+  border: 5px #404B69 solid;
+  border-radius: 10%;
+  background-color: #404B69;
+  filter: drop-shadow(8px 0 8px #DA0463);
+}
+.hide{
+  display: none;
+}
+.white{
+  color: white;
+}
+footer {
+  color: #DBEDF3;
+  font-family: sans-serif;
+}
+
+.w {
+ background-image: url(./images/tom1.png);
+ background-size: cover;
+}
+
+.a {
+  background-image: url(./images/tom2.png);
+ background-size: cover;
+}
+
+.s {
+  background-image: url(./images/tom3.png);
+ background-size: cover;
+}
+
+.d {
+  background-image: url(./images/tom4.png);
+ background-size: cover;
+}
+
+.j {
+  background-image: url(./images/snare.png);
+ background-size: cover;
+}
+
+.k {
+  background-image: url(./images/crash.png);
+ background-size: cover;
+}
+
+.l {
+  background-image: url(./images/kick.png);
+ background-size: cover;
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #404B69;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #DA0463;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
+svg{
+  margin-top: 10px;
+  margin-left: 25px;
+  margin-right:25px
+}
